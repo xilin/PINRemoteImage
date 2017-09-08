@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		680B83CF1ECFABD400210A55 /* NSURLSessionTask+Timing.h in Headers */ = {isa = PBXBuildFile; fileRef = 680B83CD1ECFABD400210A55 /* NSURLSessionTask+Timing.h */; };
-		680B83D01ECFABD400210A55 /* NSURLSessionTask+Timing.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B83CE1ECFABD400210A55 /* NSURLSessionTask+Timing.m */; };
 		6818C1551E551B5A00875DB7 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818C1541E551B5A00875DB7 /* PINCache.framework */; };
 		6818C1661E551CC600875DB7 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6818C15E1E551CC600875DB7 /* decode.h */; };
 		6818C1671E551CC600875DB7 /* demux.h in Headers */ = {isa = PBXBuildFile; fileRef = 6818C15F1E551CC600875DB7 /* demux.h */; };
@@ -300,8 +298,6 @@
 
 /* Begin PBXFileReference section */
 		680B83C71ECE5F9D00210A55 /* PINRemoteImageManager+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PINRemoteImageManager+Private.h"; path = "../PINRemoteImageManager+Private.h"; sourceTree = "<group>"; };
-		680B83CD1ECFABD400210A55 /* NSURLSessionTask+Timing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTask+Timing.h"; sourceTree = "<group>"; };
-		680B83CE1ECFABD400210A55 /* NSURLSessionTask+Timing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionTask+Timing.m"; sourceTree = "<group>"; };
 		6818C1541E551B5A00875DB7 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = "Carthage/Checkouts/PINCache/build/Debug-iphoneos/PINCache.framework"; sourceTree = "<group>"; };
 		6818C1561E551BAB00875DB7 /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINOperation.framework; path = "Carthage/Checkouts/PINOperation/build/Debug-iphoneos/PINOperation.framework"; sourceTree = "<group>"; };
 		6818C15E1E551CC600875DB7 /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
@@ -920,8 +916,6 @@
 				9DD47FA11C699FDC00F12CA0 /* PINImage+DecodedImage.m */,
 				9DD47FA21C699FDC00F12CA0 /* PINImage+WebP.h */,
 				9DD47FA31C699FDC00F12CA0 /* PINImage+WebP.m */,
-				680B83CD1ECFABD400210A55 /* NSURLSessionTask+Timing.h */,
-				680B83CE1ECFABD400210A55 /* NSURLSessionTask+Timing.m */,
 				686D48CE1ED38FC0003DB4C2 /* PINRemoteImageTask+Subclassing.h */,
 			);
 			path = Categories;
@@ -1004,7 +998,6 @@
 				6818C2791E551DA800875DB7 /* huffman.h in Headers */,
 				6818C2771E551DA800875DB7 /* huffman_encode.h in Headers */,
 				6818C2301E551D7500875DB7 /* cost.h in Headers */,
-				680B83CF1ECFABD400210A55 /* NSURLSessionTask+Timing.h in Headers */,
 				F1B919061BCF23C900710963 /* FLAnimatedImageView+PINRemoteImage.h in Headers */,
 				6818C16D1E551CC600875DB7 /* types.h in Headers */,
 				F1B919111BCF23C900710963 /* PINRemoteImageCallbacks.h in Headers */,
@@ -1259,7 +1252,6 @@
 				6818C22B1E551D7500875DB7 /* analysis.c in Sources */,
 				6818C1E51E551D1D00875DB7 /* dec.c in Sources */,
 				6818C1DD1E551D1D00875DB7 /* cpu.c in Sources */,
-				680B83D01ECFABD400210A55 /* NSURLSessionTask+Timing.m in Sources */,
 				6818C20A1E551D1E00875DB7 /* yuv_sse2.c in Sources */,
 				6818C2451E551D7500875DB7 /* webpenc.c in Sources */,
 				6818C2311E551D7500875DB7 /* delta_palettization.c in Sources */,

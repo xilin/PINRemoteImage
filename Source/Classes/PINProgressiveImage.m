@@ -14,7 +14,6 @@
 #import "PINRemoteImage.h"
 #import "PINImage+DecodedImage.h"
 #import "PINRemoteImageDownloadTask.h"
-#import "NSURLSessionTask+Timing.h"
 
 @interface PINProgressiveImage ()
 
@@ -116,9 +115,9 @@
 
 - (float)l_bytesPerSecond
 {
-    NSAssert(_dataTask.PIN_startTime != 0, @"Start time needs to be set by now.");
-    CFTimeInterval endTime = _dataTask.PIN_endTime ?: CACurrentMediaTime();
-    CFTimeInterval taskLength = endTime - _dataTask.PIN_startTime;
+//    NSAssert(_dataTask.PIN_startTime != 0, @"Start time needs to be set by now.");
+    CFTimeInterval endTime = CACurrentMediaTime();
+    CFTimeInterval taskLength = endTime - 0;
     int64_t downloadedBytes = _dataTask.countOfBytesReceived;
     
     if (taskLength == 0) {
